@@ -4,11 +4,28 @@
       <style>
         body{
           background:green;
-        }
+        } 
+		#moveit {
+			-webkit-animation-name:foo;
+			-webkit-animation-duration:5s;
+			-webkit-animation-iteration-count:infinite;
+			color: white;
+			font family: sans-serif;
+		}
+		
+		@-webkit-keyframes foo {
+			0%{background: yellow; color:green;}
+			25%{background: purple; color:blue;}
+			50%{background: red; color:pink;}
+			75%{background: pink; color:red;}
+			100%{background: yellow; color:green;}
+			
+		}
       </style>
     
   </head>
   <body>
+  <h1 id='moveit'>CHAPTER NOTES</h1>
     <p>Ch.1 History of the PC</p>
         Computers are a very important part of todays world. Nearly every where you look there is some kind of computer.
         Eniac is believed to be the first computer used by the military in 1946. The first PC (Personal Computer) was introduced by IBM in 1981.
@@ -27,6 +44,8 @@
         Pentium and AMD(Advanced Micro Devices) have been at the lead on proceesors.
   </body>
   
+
+ 
   
   
   </html>  
